@@ -1,0 +1,10 @@
+n1 = float(input('Vamos somar os números. Digite o primeiro número: '))
+n2 = float(input('Agora digite o segundo número: '))
+soma = n1 + n2
+print('A soma entre {} e {} é igual à {}'.format(n1, n2, soma))
+print(type(soma))
+valor = input("Digite algo: ")
+print(valor, 'Possui apenas números?', valor.isnumeric(), "!")
+print(valor, 'Possui apenas letras?', valor.isalpha(), "!")
+print(valor, 'Possui apenas letras minúsculas?', valor.islower(), "!")
+print(valor, 'Possui apenas letras maíusculas?', valor.isupper(), "!")
